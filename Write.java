@@ -25,7 +25,6 @@ public class Write extends Dictionary{
 
 
         try {
-
             FileWriter fw = new FileWriter(file.getAbsoluteFile(), true);
             BufferedWriter bw = new BufferedWriter(fw);
             setPalabras(data.toUpperCase(Locale.ROOT));
